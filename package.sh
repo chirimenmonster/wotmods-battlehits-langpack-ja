@@ -12,3 +12,13 @@ PACKNAME=${BASENAME}_${EX_NAME}_${EX_VERSION}.wotmod
 
 mkdir -p ${BUILDDIR}
 ${PYTHON2} ${TOOL} wotmod -m meta.xml -m LICENSE -r res -o ${BUILDDIR}/${PACKNAME}
+
+
+BASEDIR=modslistapi
+BASENAME=poliroid.modslistapi_1.3.3
+EX_NAME=langpack_ja
+EX_VERSION=0.1
+
+PACKNAME=${BASENAME}_${EX_NAME}_${EX_VERSION}.wotmod
+
+${PYTHON2} ${TOOL} wotmod -m ${BASEDIR}/meta.xml -m LICENSE -r ${BASEDIR}/res -o ${BUILDDIR}/${PACKNAME}
