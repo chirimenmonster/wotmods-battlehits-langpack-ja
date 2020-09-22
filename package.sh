@@ -28,3 +28,15 @@ FILE_RES=${BASEDIR}/res
 PACKNAME=${BASENAME}_${EX_NAME}_${EX_VERSION}.wotmod
 
 ${PYTHON2} ${TOOL} wotmod -m ${FILE_META} -m ${FILE_LICENSE} -r ${FILE_RES} -o ${BUILDDIR}/${PACKNAME}
+
+
+BASEDIR=replaysmanager
+BASENAME=poliroid.replaysmanager_3.5.0
+EX_NAME=langpack_ja
+EX_VERSION=0.2
+FILE_META=${BASEDIR}/meta.xml
+FILE_LICENSE=LICENSE
+FILE_RES=${BASEDIR}/res
+PACKNAME=${BASENAME}_${EX_NAME}_${EX_VERSION}.wotmod
+
+${PYTHON2} ${TOOL} wotmod -m ${FILE_META} -m ${FILE_LICENSE} -r ${FILE_RES} -o ${BUILDDIR}/${PACKNAME}
