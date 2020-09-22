@@ -21,7 +21,7 @@ ${PYTHON2} ${TOOL} wotmod -m ${FILE_META} -m ${FILE_LICENSE} -r ${FILE_RES} -o $
 BASEDIR=modslistapi
 BASENAME=poliroid.modslistapi_1.3.3
 EX_NAME=langpack_ja
-EX_VERSION=0.1
+EX_VERSION=0.2
 FILE_META=${BASEDIR}/meta.xml
 FILE_LICENSE=LICENSE
 FILE_RES=${BASEDIR}/res
