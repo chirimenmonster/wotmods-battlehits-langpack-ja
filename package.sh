@@ -6,7 +6,7 @@ BUILDDIR=./build
 
 mkdir -p ${BUILDDIR}
 
-BASEDIR=.
+BASEDIR=battlehits
 BASENAME=poliroid.battlehits_1.5.5
 EX_NAME=langpack_ja
 EX_VERSION=0.2
